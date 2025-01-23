@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "766b1d7b-f8da-47d9-ad35-f238a57a2690",
+		"name": "mern-reactvite-nodeaxios-mongodb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28198160"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/save_data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"chinmay\",\r\n\"email\": \"chinmay@gmail.com\",\r\n\"age\": \"15\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/save_data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"save_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/get_data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/get_data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get_data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
